@@ -24,7 +24,6 @@ public class Reservas {
 		System.out.println("Esto es una prueba de configuración");
 	}
 
-
 	
 	public void conexionABD() {
 		conexion = 
@@ -105,6 +104,14 @@ public class Reservas {
 	
 	public void setIdFactura(int idFactura) {
 		this.idFactura = idFactura;
+	}
+	
+	public void setFechaInicio(String fechaInicio) {
+		this.fechaInicio = fechaInicio;
+	}
+	
+	public void setFechaFin(String fechaFin) {
+		this.fechaInicio = fechaFin;
 	}
 	
 	
